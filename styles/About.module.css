@@ -1,3 +1,6 @@
+
+/* ---------- ABOUT CONTAINER ----------- */
+
 .container {
     min-height: 100vh;
     padding: 0 0.5rem;
@@ -13,6 +16,18 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.intro2 {
+    font-size: 65px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    
+}
+
+.intro2Holder {
+    position: relative;
+    
+}
+
 .introItalic {
     font-size: 55px;
     font-family: 'Roboto', sans-serif;
@@ -20,11 +35,14 @@
     font-style: italic;
 }
 
+
+/* ---------- SHOP CONTAINER ----------- */
+
 .freeShippingWrap {
     width:900px;
     height: 105px;
     position: relative;
-    top:5%;
+    top:2%;
     left:32%;   
     font-size:13px;
     font-family: 'Roboto', sans-serif;
@@ -38,7 +56,7 @@
 .shippingMove {
     
     position: relative;   
-    animation: slide linear 30s infinite;
+    animation: slide  70s infinite;
     display: inline-block;
     white-space: nowrap;
 }
@@ -72,7 +90,7 @@
     position: relative;
     border-radius:12px;
     font-size: 25px;
-    top:10%;
+    top:6%;
     right:11%;
     background-color: black;
     color: white;
@@ -85,4 +103,19 @@
     color:black;
     transition: 0.3s ease-in;
     cursor: pointer;
+}
+
+/* ---------- PRODUCT CONTAINER ----------- */
+
+.productContainer {
+    background-color: tomato;
+
+}
+
+.bottleImg {
+    background-color: black;
+    width: 350px;
+    height: 430px;
+    position: relative;
+    top: 15%;
 }
