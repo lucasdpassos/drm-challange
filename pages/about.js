@@ -3,6 +3,7 @@ import Head from 'next/head'
 import styles from '../styles/About.module.css'
 import Image from 'next/image'
 import Bottle from '../components/bottle'
+import Footer from '../components/footer'
 
 function Page() {
     return (
@@ -39,10 +40,11 @@ function Page() {
            
 
                 <Bottle />
-
+                <Footer></Footer>
            
        
         </div>
+        
         )
     
 }

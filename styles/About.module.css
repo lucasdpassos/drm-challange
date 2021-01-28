@@ -87,11 +87,12 @@
 .shopBtn {
     width:450px;
     height: 40px;
-    position: relative;
+    position: absolute;
     border-radius:12px;
-    font-size: 25px;
-    top:6%;
-    right:11%;
+    font-size: 25px;    
+    right:75%; 
+    top:48%; 
+
     background-color: black;
     color: white;
 
