@@ -15,6 +15,7 @@ function Page() {
             <span className={styles.intro}>Allow us to introduce ourselves.
             Prazer! <span className={styles.introItalic}>&#123;Portuguese for: it’s nice to meet you.&#125;</span> We are D.M. a new sparkling wine brand from Brazil, with our grapes grown in the Valley of the Vineyard in Southern Brazil. An entirely new class of sparkling wine. Try us and see what we mean.</span>
 
+            <button className={styles.shopBtn}>SHOP</button>
         <div className={styles.freeShippingWrap}>
             <div className={styles.shippingMove}>
             <p className="marquee">
