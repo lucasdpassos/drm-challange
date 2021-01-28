@@ -1,8 +1,10 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Image from 'next/image'
+import Router, { withRouter } from 'next/router'
 
 export default function Home() {
+
   return (
     <div>
     <Head>
@@ -13,10 +15,13 @@ export default function Home() {
     <div className={styles.container}>
     <div className={styles.ageHolder}>
     <h1 className={styles.ageConfirm}>I'm 21  +</h1>
-      <div className={styles.box}>
-       
-        </div>
+      <a href="/about">
+      <div className={styles.box}>      
+        </div>        
+      
+         {/* Lucas: In order to get more in tune with the product, I thought it would be interesting to put a filling cup animation, instead of the traditional one */}
         <img className={styles.pointer} src='./pointer.png' />
+        </a>
       </div>
       
     </div>

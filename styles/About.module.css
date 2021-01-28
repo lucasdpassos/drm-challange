@@ -1,0 +1,68 @@
+.container {
+    min-height: 100vh;
+    padding: 0 0.5rem;
+    display: grid;
+    grid-template-columns: 80fr 20fr;    
+    
+   
+    
+  }
+
+.intro {
+    font-size: 65px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.introItalic {
+    font-size: 55px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.freeShippingWrap {
+    width:900px;
+    height: 105px;
+    position: relative;
+    top:5%;
+    left:32%;   
+    font-size:20px;
+    font-family: 'Roboto', sans-serif;
+    color:red;
+    font-weight: 100;
+    overflow: hidden;       
+    
+    
+}
+
+.shippingMove {
+    
+    position: relative;   
+    animation: slide linear 18s infinite;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+
+
+
+
+@keyframes slide {
+    0% {
+        transform: translate(0%, 0);
+      }
+      100% {
+        transform: translate(-100%, 0);
+        animation-timing-function:ease-in-out
+      }
+
+}
+
+.marquee {
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+  }
+  
+  
