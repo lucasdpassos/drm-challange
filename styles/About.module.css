@@ -301,6 +301,9 @@ to extend myself a little beyond the 3 breaking points requested for some more e
         left:1%;
         top:40%;
     }
+    .footerSub{
+        left:22%;
+    }
 }
 
 
@@ -315,6 +318,19 @@ to extend myself a little beyond the 3 breaking points requested for some more e
         position: absolute;
         left:1%;
         top:42%;
+    }
+    .footerAHolder {
+        font-size: 18px;
+        top:22%;
+        left:82%;
+    }
+    .footerAHolder2 {
+        font-size: 18px;
+        top:22%;
+        left:90%;
+    }
+    .footerP {
+        top:40%;
     }
 }
 
@@ -340,6 +356,9 @@ to extend myself a little beyond the 3 breaking points requested for some more e
         width: 600px;
        
     }
+    .footerP {
+        left:65%;
+    }
    
 }
 
@@ -355,6 +374,9 @@ to extend myself a little beyond the 3 breaking points requested for some more e
         left:1%;
         top:41%;
     }
+    .footerSub{
+        left:28%;
+    }
 }
 
 @media screen and (max-width: 1189px) {
@@ -368,6 +390,12 @@ to extend myself a little beyond the 3 breaking points requested for some more e
         position: absolute;
         left:1%;
         top:40%;
+    }
+    .footerAHolder2 {
+        left:89%;
+    }
+    .footerAHolder {
+        left:81%;
     }
 }
 
@@ -405,6 +433,18 @@ and other breakpoints to adjust these metrics
         left:1%;
         top:43%;
     }
+    .footerP {
+        left:55%;
+    }
+    .footerAHolder {
+        left:75%;
+    }
+    .footerAHolder2 {
+        left:86%;
+    }
+    .footerSub {
+        left:33%;
+    }
 }
 
 
@@ -436,19 +476,9 @@ and other breakpoints to adjust these metrics
     }
 }
 
-@media screen and (max-width: 788px) {
-    .freeShippingWrap {
-        left:60%;
-        top:42%;
-        width: 200px;
-       
-    }
-    .shopBtn {
-        position: absolute;
-        left:1%;
-        top:42%;
-    }
-}
+
+
+/* -------- Breakpoint for mobile -------- */
 
 @media screen and (max-width: 788px) {
     .freeShippingWrap {
@@ -461,7 +491,7 @@ and other breakpoints to adjust these metrics
         position: absolute;
         left:1%;
         top:20%;
-        width:730px;
+        width:770px;
     }
     .intro {
         top:25%;
@@ -479,8 +509,36 @@ and other breakpoints to adjust these metrics
 .introContainer {
     height: 1700px;
 }
-
-
+.fixedFooter {
+    height:700px;
+}
+.footerAHolder {
+    position: absolute;
+    left:45%;
+    top:85%;
+}
+.footerAHolder2 {
+    position: absolute;
+    left:66%;
+    top:85%;
+    display: grid;
+    
+}
+.footerP {
+    position: absolute;
+    left:15%;
+    top:85%;
+}
+.footerInput {
+    position: absolute;
+    left:15%;
+    top:75%;
+}
+.footerSub {
+    position: absolute;
+    left:60%;
+    top:75%;
+}
 }
 
 @media screen and (max-width: 625px) {
@@ -507,13 +565,87 @@ and other breakpoints to adjust these metrics
 
 }
 
-@media screen and (max-width: 530px) {
-}
-.shopBtn {
-    position: absolute;
-    left:1%;
-    top:15%;
-    width:600px;
+@media screen and (max-width: 524px) {
+
+    .shopBtn {
+        position: absolute;
+        left:1%;
+        top:15%;
+        width:510px;
+    }
+    .introContainer {
+        height: 2100px;
+    }
+    .footerInput {
+        width:150px;
+        font-size: 16px;
+    }
+    .footerP {
+        left:5%;
+    }
 }
 
+@media screen and (max-width: 384px) {
+    .shopBtn {
+        position: absolute;
+        left:1%;
+        top:10%;
+        width:370px;
+    }
+    .introContainer {
+        height: 2400px;
+    }
+    .intro {
+        top:11%;
+        position: absolute;
+    }
+    .intro2 {
+    
+        top:6%;
+        position: relative;
+}
+.footerInput {
+    left:5%;
+}
+.footerSub {
+    left:58%;
+}
+.footerP {
+    font-size: 13px;
+}
+.footerAHolder {
+    font-size: 13px;
+}
+.footerAHolder2 {
+    font-size: 13px;
+}
+
+}
+
+@media screen and (max-width: 320px) {
+    .shopBtn {
+        position: absolute;
+        left:1%;
+        top:7%;
+        width:302px;
+    }
+    .intro {
+        top:8%;
+        position: absolute;
+    }
+    .intro2 {
+    
+        top:8%;
+        position: relative;
+}
+    .introContainer {
+        height: 2600px;
+}
+.footerInput {
+    width:110px;
+    font-size: 12px;
+}
+.footerSub {
+    left:50%;
+}
 }

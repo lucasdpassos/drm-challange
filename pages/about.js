@@ -3,7 +3,6 @@ import Head from 'next/head'
 import styles from '../styles/About.module.css'
 import Image from 'next/image'
 import Bottle from '../components/bottle'
-import Footer from '../components/footer'
 import { useState } from 'react'
 import dynamic from 'next/dynamic'
 
@@ -44,7 +43,7 @@ function Page() {
            <Bottle />
 </div>
 <div className={styles.fixedFooter}>
-    <input className={styles.footerInput} value=" Type your email..."></input>
+    <input className={styles.footerInput} defaultValue=" Type your email..."></input>
     <button className={styles.footerSub}>Subscribe</button>
 
     <p className={styles.footerP}>CC Dom Maria 2020</p>

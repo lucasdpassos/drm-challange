@@ -27,12 +27,13 @@ export const BottleImg = styled.img`
     overflow:hidden;
 
     @media screen and (max-width: 1653px) {
-        width:300px;
+        width:280px;
+        height:360px;
     }
 
     @media screen and (max-width: 1441px) {
-        width:240px;
-        height:310px;
+        width:220px;
+        height:290px;
     }
 
     @media screen and (max-width: 1305px) {
@@ -51,13 +52,21 @@ export const BottleImg = styled.img`
     @media screen and (max-width: 788px) {
         right:50%;
         top:%0.2;
-        width:380px;
-        height:480px;
+        width:360px;
+        height:440px;
         position:absolute;
     }
     @media screen and (max-width: 625px) {
         width:300px;
         height:400px;
+    }
+    @media screen and (max-width: 384px) {
+        width:180px;
+        height:260px;
+    }
+    @media screen and (max-width: 320px) {
+        width:140px;
+        height:210px;
     }
 `
 
@@ -72,13 +81,36 @@ export const BottleP = styled.p`
     @media screen and (max-width: 2705px) {
         top:40%;
     }
+    @media screen and (max-width: 2425px) {
+        top:45%;
+    }
+    @media screen and (max-width: 1844px) {
+        top:55%;
+        font-size:25px;
+    }
+    @media screen and (max-width: 1715px) {
+        top:58%;
+        font-size:22px;
+    }
+    @media screen and (max-width: 1653px) {
+        top:51%;
+        font-size:22px;
+    }
+    @media screen and (max-width: 1560px) {
+        top:53%;
+        font-size:19px;
+    }
 
     @media screen and (max-width: 1441px) {
-        top:30%;
-        font-size:28px;
+        top:45%;
+        font-size:19px;
+    }
+    @media screen and (max-width: 1305px) {
+        top:52%;
+        font-size:19px;
     }
     @media screen and (max-width: 1094px) {
-        top:30%;
+        top:50%;
     }
     
     @media screen and (max-width: 788px) {
@@ -87,7 +119,14 @@ export const BottleP = styled.p`
         font-size:40px;        
         position:absolute;
     }
-    
-    
+    @media screen and (max-width: 384px) {
+        font-size:30px;
+        top:2%;
+    }
+   
+    @media screen and (max-width: 320px) {
+        font-size:24px;
+        top:1.5%;
+    }
    
 `
