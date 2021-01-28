@@ -1,19 +1,28 @@
+import styles from '../styles/About.module.css'
 import styled from 'styled-components'
 
 export default function Footer() {
+    
     return (
-        <FooterContainer>
-            hello world 
-        </FooterContainer>
+
+        <div>
+            
+           <FixedFooter>aaaa</FixedFooter>
+          
+        </div>
     )
 }
 
-export const FooterContainer = styled.div`
-    width:125%;
-    height:150px;
-    background-color:#383838;
-    overflow:hidden;
-
+export const FixedFooter = styled.div`
+    height: 200px;
+    width: 100%;
+    background-color: #000;
+    position: fixed;
+    bottom: 0;
+    z-index: -100;
+    color: white;
+    text-align: center;
+    font-size: 20pt;
 
 
 `

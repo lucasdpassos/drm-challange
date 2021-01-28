@@ -4,17 +4,28 @@ import styles from '../styles/About.module.css'
 import Image from 'next/image'
 import Bottle from '../components/bottle'
 import Footer from '../components/footer'
+import { useState } from 'react'
+import dynamic from 'next/dynamic'
+
+
+
 
 function Page() {
+
+    
+
     return (
+        <div className={styles.rest}>
         <div className={styles.container}>
             <Head>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
             <link rel="preconnect" href="https://fonts.gstatic.com"></link>
             <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"></link>
             <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"></link>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
             </Head>
         
-        <div>
+        <div className={styles.sectionHolder}>
             <span className={styles.intro}>Allow us to introduce ourselves.
             Prazer! <span className={styles.introItalic}>&#123;Portuguese for: it’s nice to meet you.&#125;</span> We are D.M. a new sparkling wine brand from Brazil, with our grapes grown in the Valley of the Vineyard in Southern Brazil. <span className={styles.introItalic}>An entirely new class of sparkling wine.</span> Try us and see what we mean.</span>
 
@@ -39,12 +50,18 @@ function Page() {
             
            
 
-                <Bottle />
-                <Footer></Footer>
            
        
         </div>
+
+
+        <Bottle />
+
         
+        <Footer>aaaaaaaaaaaaaa</Footer>
+      
+
+        </div>
         )
     
 }
